@@ -2,6 +2,7 @@ let sceneOne = document.querySelector(`#one`)
 let sceneTwo = document.querySelector(`#two`)
 let sceneThree = document.querySelector(`#three`)
 let sceneFour= document.querySelector(`#four`)
+let sceneFive= document.querySelector(`#five`)
 
 
 
@@ -9,7 +10,7 @@ let audioOne = document.querySelector(`#audioOne`)
 let audioTwo = document.querySelector(`#audioTwo`)
 let audioThree = document.querySelector(`#audioThree`)
 let audioFour = document.querySelector(`#audioFour`)
-let audioFour = document.querySelector(`#audioFive`)
+let audioFive = document.querySelector(`#audioFive`)
 
 
 
