@@ -44,3 +44,7 @@ let playwhitenoise = function () {
     return audioFive.paused ? audioFive.play() : audioFive.pause();
 }
 sceneFive.addEventListener(`click`, playwhitenoise)
+
+
+
+//img hover
