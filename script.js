@@ -3,6 +3,8 @@ let sceneTwo = document.querySelector(`#two`)
 let sceneThree = document.querySelector(`#three`)
 let sceneFour= document.querySelector(`#four`)
 let sceneFive= document.querySelector(`#five`)
+let sceneSix= document.querySelector(`#six`)
+let sceneSeven= document.querySelector(`#seven`)
 
 
 
@@ -11,6 +13,8 @@ let audioTwo = document.querySelector(`#audioTwo`)
 let audioThree = document.querySelector(`#audioThree`)
 let audioFour = document.querySelector(`#audioFour`)
 let audioFive = document.querySelector(`#audioFive`)
+let audioSix = document.querySelector(`#audioSix`)
+let audioSeven = document.querySelector(`#audioSeven`)
 
 
 
@@ -45,6 +49,17 @@ let playwhitenoise = function () {
 }
 sceneFive.addEventListener(`click`, playwhitenoise)
 
+// Function 6
+let playdrink = function () {
+    return audioSix.paused ? audioSix.play() : audioSix.pause();
+}
+sceneSix.addEventListener(`click`, playdrink)
+
+// Function 7
+let playmouth = function () {
+    return audioSeven.paused ? audioSeven.play() : audioSeven.pause();
+}
+sceneSeven.addEventListener(`click`, playmouth)
 
 
 //img hover
