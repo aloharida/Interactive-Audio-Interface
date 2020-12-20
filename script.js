@@ -40,8 +40,7 @@ let play_stream_water = function () {
 sceneFour.addEventListener(`click`, play_stream_water)
 
 // Function 5
-let play_whitenoise = function () {
-    return audiofive.paused ? audioFive.play() : audioFive.pause();
+let playwhitenoise = function () {
+    return audioFive.paused ? audioFive.play() : audioFive.pause();
 }
-scenefive.addEventListener(`click`, play_whitenoise)
-
+sceneFive.addEventListener(`click`, playwhitenoise)
