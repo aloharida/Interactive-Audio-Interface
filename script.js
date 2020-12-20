@@ -61,10 +61,5 @@ let playmouth = function () {
 }
 sceneSeven.addEventListener(`click`, playmouth)
 
-// Stop sound
-function reset() {
-
-    location.reload();
-  }
 
 //img hover
