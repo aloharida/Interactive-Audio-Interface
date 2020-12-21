@@ -5,6 +5,8 @@ let sceneFour= document.querySelector(`#four`)
 let sceneFive= document.querySelector(`#five`)
 let sceneSix= document.querySelector(`#six`)
 let sceneSeven= document.querySelector(`#seven`)
+let sceneEight= document.querySelector(`#eight`)
+let sceneNine= document.querySelector(`#nine`)
 
 
 
@@ -15,6 +17,8 @@ let audioFour = document.querySelector(`#audioFour`)
 let audioFive = document.querySelector(`#audioFive`)
 let audioSix = document.querySelector(`#audioSix`)
 let audioSeven = document.querySelector(`#audioSeven`)
+let audioEight = document.querySelector(`#audioEight`)
+let audioNine = document.querySelector(`#audioNine`)
 
 
 
@@ -32,10 +36,10 @@ let playforest = function () {
 sceneTwo.addEventListener(`click`, playforest)
 
 // Function 3
-let playkeyboard = function () {
+let playstreamwater = function () {
     return audioThree.paused ? audioThree.play() : audioThree.pause();
 }
-sceneThree.addEventListener(`click`, playkeyboard)
+sceneThree.addEventListener(`click`, playstreamwater)
 
 // Function 4
 let play_stream_water = function () {
@@ -61,6 +65,19 @@ let playmouth = function () {
 }
 sceneSeven.addEventListener(`click`, playmouth)
 
+// Function 8
+let playkeyboard = function () {
+    return audioEight.paused ? audioEight.play() : audioEight.pause();
+}
+sceneEight.addEventListener(`click`, playkeyboard)
 
 
-//img hover
+// Function 9
+let playstar = function () {
+    return audioNine.paused ? audioNine.play() : audioNine.pause();
+}
+sceneNine.addEventListener(`click`, playstar)
+
+
+
+
