@@ -7,8 +7,9 @@ body {
 
 img {
     position: flex;
-    width: 400px;
-    height: 400px;
+    vertical-align: middle;
+    width: 380px;
+    height: 380px;
    
 }
   
