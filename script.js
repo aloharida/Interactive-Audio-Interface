@@ -62,4 +62,5 @@ let playmouth = function () {
 sceneSeven.addEventListener(`click`, playmouth)
 
 
+
 //img hover
